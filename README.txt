@@ -22,3 +22,8 @@ versions
 
 8. `git commit` ---> creates a particular version of the object. It captures
 a snapshot of the projects staged changes and creates a version out of it.
+
+9. `git log` ---> list down all the commits in the repository.
+
+10 `git restore <file>` ---> It removes all files changes from the staging area
+to be commited.
