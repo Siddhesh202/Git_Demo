@@ -25,5 +25,7 @@ a snapshot of the projects staged changes and creates a version out of it.
 
 9. `git log` ---> list down all the commits in the repository.
 
-10 `git restore <file>` ---> It removes all files changes from the staging area
-to be commited.
+10. `git restore <file>` ---> It removes all files changes from the working area.
+
+11. `git restore --staged <file>` ---> It removes file changes from staging area
+to working area. This only works if your changes are in the staging area.
